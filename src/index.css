@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-size: 55px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 5px;
+}
+
+table.blueTable {
+  border: 1px solid #1c6ea4;
+  background-color: #eeeeee;
+  text-align: left;
+}
+table.blueTable td,
+table.blueTable th {
+  border: 1px solid #aaaaaa;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #d0e4f5;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a {
+  display: inline-block;
+  background: #1c6ea4;
+  color: #ffffff;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+.chart-container {
+  width: 50%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  background-color: #04aa6d;
+}
